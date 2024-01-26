@@ -36,7 +36,7 @@ h4{
     font-size: 1.5rem;
     line-height: 1.2;
     margin: 0;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 h4 + p{
@@ -63,8 +63,7 @@ h6{
 
 a{
     color: $black;
-    text-decoration: none;
-    font-weight: 700;
+    font-weight: 900;
     &:hover{
         text-decoration: underline;
     }
