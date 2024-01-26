@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "name": "frifag-artikkelmal-2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "sass src/sass/main.scss dist/css/main.css",
+    "css-watch": "sass --watch src/sass/main.scss dist/css/main.css"
+  },
+  "author": "Nina Amdal",
+  "license": "ISC",
+  "description": ""
+}
