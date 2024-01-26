@@ -144,7 +144,7 @@ footer {
 }
 
 .frifag-article-head {
-  margin: 60px 0;
+  margin: 30px 0;
 }
 .frifag-article-head h5 {
   margin-bottom: 20px;
@@ -175,13 +175,16 @@ footer {
 }
 .frifag-article-top-image img {
   width: 100%;
-  height: 474px;
+  max-height: 474px;
   object-fit: cover;
   object-position: center;
 }
 @media screen and (max-width: 768px) {
   .frifag-article-top-image img {
     height: 300px;
+  }
+  .frifag-article-top-image .frifag-article-top-image {
+    padding: 0 0;
   }
 }
 
@@ -352,6 +355,7 @@ footer {
   padding: 10px 20px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
+  color: #212121;
 }
 .frifag-end-container .frifag-end-bottom a:hover {
   background-color: #FE6E1E;
@@ -393,6 +397,25 @@ footer {
   color: #FFFFFF;
 }
 
+.frifag-more-articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 980px;
+  padding: 0 20px;
+}
+.frifag-more-articles-container .frifag-more-content {
+  width: 30%;
+}
+.frifag-more-articles-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-weight: 900;
@@ -432,7 +455,7 @@ h4 {
   font-size: 1.5rem;
   line-height: 1.2;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 h4 + p {
@@ -459,8 +482,7 @@ h6 {
 
 a {
   color: #212121;
-  text-decoration: none;
-  font-weight: 700;
+  font-weight: 900;
 }
 a:hover {
   text-decoration: underline;
@@ -479,7 +501,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-top: 4px solid #FE6E1E;
   position: relative;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 .frifag-factbox-collapse .frifag-factbox-container {
   height: 100px;
@@ -521,7 +543,7 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   border-top: 4px solid #FE6E1E;
   position: relative;
-  margin: 60px 0;
+  margin: 30px 0;
 }
 
 /*# sourceMappingURL=main.css.map */
