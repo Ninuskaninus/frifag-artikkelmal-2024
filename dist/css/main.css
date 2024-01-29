@@ -208,6 +208,11 @@ footer {
   flex-wrap: wrap;
   gap: 80px;
 }
+@media screen and (max-width: 360px) {
+  .frifag-article-content {
+    padding: 0;
+  }
+}
 .frifag-article-content .frifag-ad-intext {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   height: 400px;
@@ -506,7 +511,13 @@ footer {
 #ad320x320 {
   display: none;
   width: 320px;
+  height: auto;
+}
+#ad320x320 img {
+  width: 320px;
   height: 320px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media screen and (max-width: 580px) {
@@ -514,7 +525,13 @@ footer {
     display: none;
   }
   #ad320x320 {
-    display: block;
+    display: flex;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .frifag-ad-intext-container {
+    padding: 0;
   }
 }
 h1 {

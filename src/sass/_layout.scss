@@ -107,6 +107,11 @@ footer{
     flex-wrap: wrap;
     gap: 80px;
 
+    @media screen and (max-width: 360px) {
+        padding: 0;
+        
+    }
+
     .frifag-ad-intext{
         box-shadow: $box-shadow;
         height: 400px;
@@ -435,7 +440,14 @@ footer{
 #ad320x320{
     display: none;
     width: 320px;
-    height: 320px;
+    height: auto;
+
+    img{
+        width: 320px;
+        height: 320px;
+        object-fit: cover;
+        object-position: center;
+    }
 }
 
         @media screen and (max-width: 580px) {
@@ -444,9 +456,17 @@ footer{
             }
 
             #ad320x320{
-                display: block;
+                display: flex;
+                width: 100%;
             }
     
+        }
+
+        @media screen and (max-width: 360px) {
+            .frifag-ad-intext-container{
+                padding: 0;
+            }
+            
         }
 
 
