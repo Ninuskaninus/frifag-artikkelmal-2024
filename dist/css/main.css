@@ -160,11 +160,12 @@ footer {
 .frifag-ad-top {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   height: 150px;
-  margin: 50px 0;
+  margin: 0 0 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 980px;
+  max-width: 980px;
+  width: 100%;
 }
 
 .frifag-article-top-image {
@@ -329,9 +330,11 @@ footer {
 
 .frifag-end-container {
   background-color: #F5F5F5;
-  padding: 50px;
+  padding: 30px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   max-width: 400px;
+  gap: 20px;
+  height: auto;
 }
 .frifag-end-container p {
   font-family: "Merriweather", serif;
@@ -348,14 +351,21 @@ footer {
   font-weight: 900;
   margin-bottom: 5px;
 }
+.frifag-end-container .frifag-end-bottom {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
 .frifag-end-container .frifag-end-bottom a {
-  width: 150px;
+  width: 180px;
   border-radius: 25px;
   border: #606060 solid 1px;
   padding: 10px 20px;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: #212121;
+  height: auto;
+  text-align: center;
 }
 .frifag-end-container .frifag-end-bottom a:hover {
   background-color: #FE6E1E;
@@ -397,23 +407,75 @@ footer {
   color: #FFFFFF;
 }
 
-.frifag-more-articles-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 10px;
-  width: 100%;
-  max-width: 980px;
-  padding: 0 20px;
-}
-.frifag-more-articles-container .frifag-more-content {
-  width: 30%;
-}
-.frifag-more-articles-container img {
+.frifag-more-container {
   width: 100%;
   height: auto;
+  max-width: 1020px;
+  padding: 20px;
+}
+
+.frifag-more {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.frifag-more .frifag-more-article {
+  width: 30%;
+  height: 300px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.frifag-more .frifag-more-article img {
+  width: 100%;
   object-fit: cover;
   object-position: center;
+}
+.frifag-more .frifag-more-article h3 {
+  width: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 830px) {
+  .frifag-more .frifag-more-article {
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .frifag-more .frifag-more-article img {
+    height: 150px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 830px) {
+  .frifag-more {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .frifag-more .frifag-more-article {
+    width: 100%;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .frifag-more .frifag-more-article {
+    height: auto;
+    flex-direction: column;
+  }
+  .frifag-more .frifag-more-article img {
+    height: 250px;
+    width: 100%;
+  }
 }
 
 h1 {
