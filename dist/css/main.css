@@ -478,6 +478,26 @@ footer {
   }
 }
 
+.frifag-ad-intext-container {
+  padding: 10px 0;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frifag-ad-intext-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.frifag-ad-intext-container small {
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-weight: 900;

@@ -403,5 +403,27 @@ footer{
     }
 }
 
+.frifag-ad-intext-container{
+    padding: 10px 0;
+    background-color: $white-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    small{
+        font-size: 0.8rem;
+        font-family: $font-family-sans-serif;
+        margin-bottom: 10px;
+    }
+}
+
 
 
