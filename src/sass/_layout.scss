@@ -31,6 +31,10 @@ footer{
 .frifag-article-head, .frifag-article-content{
     max-width: 1020px;
     padding: 0 20px;
+
+    a:hover{
+        color: $orange;
+    }
 }
 
 .frifag-article-head{
@@ -410,6 +414,8 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    max-width: 580px;
   
     img {
         width: 100%;
@@ -423,7 +429,25 @@ footer{
         font-family: $font-family-sans-serif;
         margin-bottom: 10px;
     }
+
 }
+
+#ad320x320{
+    display: none;
+    width: 320px;
+    height: 320px;
+}
+
+        @media screen and (max-width: 580px) {
+            #ad580x400 {
+                display: none;
+            }
+
+            #ad320x320{
+                display: block;
+            }
+    
+        }
 
 
 
