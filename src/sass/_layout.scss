@@ -149,7 +149,15 @@ footer{
             object-fit: cover;
             object-position: center;
         }
+
     }
+
+     @media screen and (max-width: 950px) {
+         .frifag-advert-container {
+            display: none;
+         }
+            
+     }
 
     .frifag-img-intext-content{
         display: flex;
@@ -467,7 +475,13 @@ footer{
                 padding: 0;
             }
             
-        }
+}
+
+#lastContainerSticky{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 
 
 
