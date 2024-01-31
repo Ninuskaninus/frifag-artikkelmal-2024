@@ -208,7 +208,6 @@ footer{
 .frifag-article-byline{
     margin-bottom: 50px;
     img{
-        margin-bottom: 15px;
         width: 150px;
     }
 }
@@ -220,7 +219,7 @@ footer{
     flex-wrap: wrap;
 
     p{
-        margin: 0;
+        margin-bottom: -4px;
         font-size: 1rem;
         font-family: $font-family-serif;
         color: $dark-gray;

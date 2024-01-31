@@ -295,7 +295,6 @@ footer {
   margin-bottom: 50px;
 }
 .frifag-article-byline img {
-  margin-bottom: 15px;
   width: 150px;
 }
 
@@ -306,7 +305,7 @@ footer {
   flex-wrap: wrap;
 }
 .frifag-article-byline-container p {
-  margin: 0;
+  margin-bottom: -4px;
   font-size: 1rem;
   font-family: "Merriweather", serif;
   color: #606060;
