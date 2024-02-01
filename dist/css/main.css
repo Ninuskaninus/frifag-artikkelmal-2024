@@ -730,6 +730,11 @@ p {
 .frifag-debatt-byline-container b {
   font-family: "Lato", sans-serif;
 }
+@media screen and (max-width: 375px) {
+  .frifag-debatt-byline-container img {
+    display: none;
+  }
+}
 
 .frifag-debatt-information {
   border-top: 1px solid #B9B9B9;
@@ -747,6 +752,20 @@ p {
   font-weight: 900;
   font-size: 1.3rem;
   margin-bottom: 50px;
+}
+
+.frifag-quote {
+  font-family: "Lato", sans-serif;
+  border-left: 3px solid #FE6E1E;
+  padding-left: 10px;
+  height: 100%;
+}
+
+.frifag-italic-bottom {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #606060;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -46,6 +46,13 @@
     b{
         font-family: $font-family-sans-serif;
     }
+
+    @media screen and (max-width: 375px){
+
+        img{
+           display: none;
+        }
+    }
 }
 
 
@@ -67,4 +74,18 @@
     font-weight: 900;
     font-size: 1.3rem;
     margin-bottom: 50px;
+}
+
+.frifag-quote{
+    font-family: $font-family-sans-serif;
+    border-left: 3px solid $orange;
+    padding-left: 10px;
+    height: 100%;
+}
+
+.frifag-italic-bottom{
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: $dark-gray;
 }
