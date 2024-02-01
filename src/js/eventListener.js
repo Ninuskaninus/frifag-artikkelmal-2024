@@ -19,17 +19,23 @@ export function factBoxTrigger(){
 }
 
 export function captionTrigger() {
-    const captionContainers = document.querySelectorAll(".frifag-caption");
+/*     const captionContainers = document.querySelectorAll(".frifag-caption");
 
     captionContainers.forEach((captionContainer) => {
         if (captionContainer.clientHeight > 48) {
             captionContainer.style.maxHeight = "48px";
             captionContainer.style.overflow = "hidden";
+            captionContainer.style.marginRight = "80px";
             captionContainer.style.background = "linear-gradient(to bottom, transparent, white) 100% 20%";
+            const captionTrigger = document.createElement("span");
+            captionTrigger.classList.add("frifag-caption-trigger");
+            captionTrigger.innerHTML = "Se mer";
+            captionContainer.appendChild(captionTrigger);
+
 
         } else {
             captionContainer.style.maxHeight = "none"; 
             captionContainer.style.overflow = "visible";
         }
-    });
+    }); */
 }
