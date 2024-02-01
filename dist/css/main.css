@@ -701,6 +701,7 @@ p {
 }
 .frifag-debatt-head h1 {
   margin-bottom: 20px;
+  max-width: 800px;
 }
 .frifag-debatt-head p {
   font-weight: 800;
@@ -740,6 +741,12 @@ p {
   font-weight: 500;
   padding: 10px 0;
   color: #606060;
+}
+
+.frifag-debatt-ingress {
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=main.css.map */
