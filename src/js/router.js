@@ -1,3 +1,4 @@
-import { factBoxTrigger } from "./eventListener.js";
+import { factBoxTrigger, captionTrigger } from "./eventListener.js";
 
 factBoxTrigger();
+captionTrigger();

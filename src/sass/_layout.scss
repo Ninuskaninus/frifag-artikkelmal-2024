@@ -32,6 +32,14 @@ footer{
     max-width: 1020px;
     padding: 0 20px;
 
+    a{
+        color: $black;
+        text-decoration: underline;
+        text-decoration-color: $orange;
+        text-decoration-thickness: 1px;
+        font-weight: 500;
+    }
+
     a:hover{
         color: $orange;
     }
@@ -96,6 +104,13 @@ footer{
     margin: 0;
     font-size: 0.9rem;
     padding-left: 15px;
+    position: relative;
+
+    span{
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
   }
 
 .frifag-article-content{

@@ -142,6 +142,13 @@ footer {
   max-width: 1020px;
   padding: 0 20px;
 }
+.frifag-article-head a, .frifag-article-content a {
+  color: #212121;
+  text-decoration: underline;
+  text-decoration-color: #FE6E1E;
+  text-decoration-thickness: 1px;
+  font-weight: 500;
+}
 .frifag-article-head a:hover, .frifag-article-content a:hover {
   color: #FE6E1E;
 }
@@ -197,6 +204,12 @@ footer {
   margin: 0;
   font-size: 0.9rem;
   padding-left: 15px;
+  position: relative;
+}
+.frifag-caption span {
+  position: absolute;
+  top: 20px;
+  right: 0;
 }
 
 .frifag-article-content {
