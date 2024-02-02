@@ -689,4 +689,83 @@ p {
   margin: 30px 0;
 }
 
+.frifag-debatt-head {
+  max-width: 1020px;
+  padding: 0 20px;
+}
+.frifag-debatt-head h5 {
+  margin-bottom: 20px;
+  border-left: 9px solid #FE6E1E;
+  padding-left: 10px;
+}
+.frifag-debatt-head h1 {
+  margin-bottom: 20px;
+  max-width: 800px;
+}
+.frifag-debatt-head p {
+  font-weight: 800;
+  max-width: 580px;
+}
+.frifag-debatt-head img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.frifag-debatt-byline-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.frifag-debatt-byline-container p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+}
+.frifag-debatt-byline-container b {
+  font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 375px) {
+  .frifag-debatt-byline-container img {
+    display: none;
+  }
+}
+
+.frifag-debatt-information {
+  border-top: 1px solid #B9B9B9;
+  border-bottom: 1px solid #B9B9B9;
+}
+.frifag-debatt-information p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #606060;
+}
+
+.frifag-debatt-ingress {
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+
+.frifag-quote {
+  font-family: "Lato", sans-serif;
+  border-left: 3px solid #FE6E1E;
+  padding-left: 10px;
+  height: 100%;
+}
+
+.frifag-italic-bottom {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #606060;
+}
+
 /*# sourceMappingURL=main.css.map */
