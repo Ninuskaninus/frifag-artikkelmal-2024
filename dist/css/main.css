@@ -692,7 +692,6 @@ p {
 .frifag-debatt-head {
   max-width: 1020px;
   padding: 0 20px;
-  margin: 30px 0;
 }
 .frifag-debatt-head h5 {
   margin-bottom: 20px;
@@ -720,7 +719,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .frifag-debatt-byline-container p {
   font-size: 1rem;
