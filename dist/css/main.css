@@ -145,8 +145,8 @@ footer {
 .frifag-article-head a, .frifag-article-content a {
   color: #212121;
   text-decoration: underline;
-  text-decoration-color: #FE6E1E;
-  text-decoration-thickness: 1px;
+  text-decoration-color: #1767ce;
+  text-decoration-thickness: 2px;
   font-weight: 500;
 }
 .frifag-article-head a:hover, .frifag-article-content a:hover {
