@@ -59,6 +59,8 @@ footer{
 
     h5{
         margin-bottom: 20px;
+        border-left: 9px solid $orange;
+         padding-left: 10px;
     }
 
     h1{
@@ -69,6 +71,14 @@ footer{
        font-weight: 800;
        max-width: 580px;
     }
+}
+
+.frifag-article-quote{
+    font-weight: 900;
+    border-left: 9px solid $orange;
+    padding-left: 10px;
+    margin: 30px 0;
+    
 }
 
 .frifag-ad-top{
@@ -215,7 +225,7 @@ footer{
         max-width: 580px;
     }
 
-    .frifag-quote{
+    .frifag-kronikk-quote{
         font-weight: 900;
     }
 
