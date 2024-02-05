@@ -255,11 +255,11 @@ footer {
 }
 
 .frifag-caption {
-  color: #606060;
+  color: #7c7c7c;
   margin: 0;
   font-size: 0.9rem;
-  padding-left: 15px;
   position: relative;
+  margin-top: 5px;
 }
 .frifag-caption span {
   position: absolute;
@@ -362,9 +362,11 @@ footer {
 
 .frifag-article-byline {
   margin-bottom: 50px;
+  padding: 10px 0;
 }
 .frifag-article-byline img {
   width: 150px;
+  margin-bottom: 10px;
 }
 
 .frifag-article-byline-container {
@@ -372,18 +374,23 @@ footer {
   flex-direction: row;
   gap: 20px;
   flex-wrap: wrap;
+  border-bottom: 0.5px solid #dfdfdf;
+  border-top: 0.5px solid #dfdfdf;
+  padding: 10px 0;
+  height: auto;
 }
 .frifag-article-byline-container p {
-  margin-bottom: -4px;
+  margin-bottom: 0;
   font-size: 1rem;
   font-family: "Merriweather", serif;
-  color: #606060;
+  color: #7c7c7c;
   font-weight: 600;
+  margin-top: 0;
 }
 .frifag-article-byline-container small {
   font-size: 0.7rem;
   font-family: "Merriweather", serif;
-  color: #606060;
+  color: #7c7c7c;
   font-weight: 500;
 }
 
@@ -398,7 +405,7 @@ footer {
   margin: 0;
   font-size: 0.8rem;
   font-family: "Lato", sans-serif;
-  color: #606060;
+  color: #7c7c7c;
   font-weight: 500;
   width: auto;
 }
@@ -439,7 +446,7 @@ footer {
 .frifag-end-container .frifag-end-bottom a {
   width: 180px;
   border-radius: 25px;
-  border: #606060 solid 1px;
+  border: #7c7c7c solid 1px;
   padding: 10px 20px;
   margin-top: 10px;
   font-family: "Lato", sans-serif;
@@ -750,7 +757,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin: 30px 0;
+  margin: 10px 0;
 }
 .frifag-kronikk-head h5 {
   margin-bottom: 20px;
@@ -781,6 +788,9 @@ p {
   flex-direction: row;
   align-items: center;
   margin: 30px 0;
+  border-top: 0.5px solid #dfdfdf;
+  border-bottom: 0.5px solid #dfdfdf;
+  padding: 10px 0;
 }
 .frifag-kronikk-byline-container p {
   font-size: 1rem;
@@ -805,7 +815,7 @@ p {
   margin: 0;
   font-weight: 500;
   padding: 10px 0;
-  color: #606060;
+  color: #7c7c7c;
 }
 
 .frifag-kronikk-ingress {
@@ -825,7 +835,7 @@ p {
   font-style: italic;
   font-size: 0.8rem;
   margin-top: 10px;
-  color: #606060;
+  color: #7c7c7c;
 }
 
 .frifag-debatt-head {

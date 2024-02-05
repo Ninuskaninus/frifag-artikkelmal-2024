@@ -156,8 +156,8 @@ footer{
     color: $dark-gray;
     margin: 0;
     font-size: 0.9rem;
-    padding-left: 15px;
     position: relative;
+    margin-top: 5px;
 
     span{
         position: absolute;
@@ -277,8 +277,11 @@ footer{
 
 .frifag-article-byline{
     margin-bottom: 50px;
+    padding: 10px 0;
+
     img{
         width: 150px;
+        margin-bottom: 10px;
     }
 }
 
@@ -287,13 +290,18 @@ footer{
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    border-bottom: 0.5px solid $stroke-gray;
+    border-top: 0.5px solid $stroke-gray;
+    padding: 10px 0;
+    height: auto;
 
     p{
-        margin-bottom: -4px;
+        margin-bottom: 0;
         font-size: 1rem;
         font-family: $font-family-serif;
         color: $dark-gray;
         font-weight: 600;
+        margin-top: 0;
     }
 
     small{
