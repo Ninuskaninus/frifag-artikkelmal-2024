@@ -137,6 +137,11 @@ main {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  main {
+    padding-top: 50px;
+  }
+}
 
 footer {
   width: 100%;
@@ -174,6 +179,8 @@ footer {
 .frifag-article-head p {
   font-weight: 800;
   max-width: 580px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
 }
 
 .frifag-article-quote {
@@ -192,6 +199,28 @@ footer {
   align-items: center;
   max-width: 980px;
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .frifag-ad-top {
+    display: none;
+  }
+}
+
+.frifag-ad-top-mobile {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  height: 150px;
+  margin: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 980px;
+  width: 100%;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .frifag-ad-top-mobile {
+    display: flex;
+  }
 }
 
 .frifag-article-top-image {
@@ -706,8 +735,13 @@ p {
 }
 
 .frifag-kronikk-head {
+  width: 100%;
   max-width: 1020px;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 30px 0;
 }
 .frifag-kronikk-head h5 {
   margin-bottom: 20px;
@@ -717,6 +751,8 @@ p {
 .frifag-kronikk-head h1 {
   margin-bottom: 20px;
   max-width: 800px;
+  font-style: italic;
+  font-weight: 500;
 }
 .frifag-kronikk-head p {
   font-weight: 800;
@@ -735,8 +771,7 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .frifag-kronikk-byline-container p {
   font-size: 1rem;
