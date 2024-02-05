@@ -76,6 +76,10 @@ footer{
        max-width: 580px;
        font-size: 1.5rem;
        line-height: 1.8rem;
+
+       @media screen and (max-width: 425px) {
+        font-size: 1.3rem;
+       }
     }
 }
 
@@ -109,12 +113,16 @@ footer{
             display: flex;
             justify-content: center;
             align-items: center;
-            max-width: 980px;
+            max-width: 580px;
             width: 100%;
             display: none;
 
             @media screen and (max-width: 768px) {
                 display: flex; 
+            }
+
+            @media screen and (max-width: 375px){
+                max-width: 319px;
             }
 }
 
@@ -408,7 +416,6 @@ footer{
     width: 100%;
     height: auto;
     max-width: 1020px;
-    padding: 20px;
 }
 
 .frifag-more{
