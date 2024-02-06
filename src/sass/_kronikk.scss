@@ -47,13 +47,16 @@
     gap: 20px;
     flex-wrap: wrap;
 
-
+    img{
+        margin: 0;
+    }
 
     p{
         font-size: 1rem;
         margin: 0;
         font-weight: 500;
     }
+
 
     b{
         font-family: $font-family-sans-serif;

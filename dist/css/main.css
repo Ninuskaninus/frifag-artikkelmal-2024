@@ -797,6 +797,9 @@ p {
   gap: 20px;
   flex-wrap: wrap;
 }
+.frifag-kronikk-byline-container img {
+  margin: 0;
+}
 .frifag-kronikk-byline-container p {
   font-size: 1rem;
   margin: 0;
