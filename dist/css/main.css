@@ -879,6 +879,12 @@ p {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .frifag-tema-main {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
 
 .frifag-tema-article-text {
   max-width: 580px;
@@ -889,6 +895,11 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .frifag-tema-article {
+    padding: 0 20px;
+  }
 }
 
 .frifag-tema-top-image {
@@ -913,11 +924,17 @@ p {
   margin: 0;
   font-size: 0.8rem;
 }
+@media screen and (max-width: 617px) {
+  .frifag-tema-top-caption {
+    left: 10px;
+  }
+}
 
 .frifag-tema-head {
   background: #FFF;
   box-shadow: 2px -6px 9.6px 0px rgba(124, 124, 124, 0.15);
   max-width: 825px;
+  width: 100%;
   padding: 50px;
   margin-top: -50px;
   display: flex;
@@ -925,6 +942,13 @@ p {
   align-items: center;
   margin: -50px 10px;
   z-index: 1;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 870px) {
+  .frifag-tema-head {
+    padding: 20px;
+    margin: -50px 10px 0 10px;
+  }
 }
 
 .frifag-tema-head-content {
@@ -951,6 +975,8 @@ p {
   border-top: 0.5px solid #dfdfdf;
   border-bottom: 0.5px solid #dfdfdf;
   padding: 10px 0;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .frifag-tema-byline-container p {
   font-size: 1rem;
@@ -985,10 +1011,12 @@ p {
   flex-direction: row;
   align-items: flex-start;
   margin-right: 50px;
-  gap: 30px;
+  gap: 5px;
+  flex-wrap: wrap;
 }
 .frifag-tema-published p {
   font-size: 0.7rem;
+  margin: 0;
 }
 
 .frifag-tema-img-intext {
