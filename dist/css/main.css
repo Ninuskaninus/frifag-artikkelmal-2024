@@ -914,6 +914,12 @@ p {
   height: 80vh;
   object-fit: cover;
 }
+@media screen and (max-width: 500px) {
+  .frifag-tema-top-image img {
+    height: 300px;
+    width: 100%;
+  }
+}
 
 .frifag-tema-top-caption {
   position: absolute;
@@ -951,6 +957,7 @@ p {
   .frifag-tema-head {
     padding: 20px;
     margin: -50px 10px 0 10px;
+    max-width: 800px;
   }
 }
 
