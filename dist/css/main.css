@@ -423,6 +423,7 @@ footer {
   width: 100%;
   gap: 20px;
   height: auto;
+  max-width: 580px;
 }
 .frifag-end-container p {
   font-family: "Merriweather", serif;
@@ -430,6 +431,7 @@ footer {
 }
 .frifag-end-container img {
   width: 200px;
+  margin-top: 10px;
 }
 .frifag-end-container .frifag-end-head {
   font-family: "Merriweather", serif;
@@ -465,6 +467,7 @@ footer {
 
 .frifag-article-social-container {
   width: 100%;
+  max-width: 580px;
   display: flex;
   flex-direction: row;
   margin: 40px 0;
@@ -870,6 +873,174 @@ p {
   padding-left: 10px;
   height: 100%;
   font-weight: 900;
+}
+
+.frifag-tema-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .frifag-tema-main {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+.frifag-tema-article-text {
+  max-width: 580px;
+}
+
+.frifag-tema-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 768px) {
+  .frifag-tema-article {
+    padding: 0 20px;
+  }
+}
+
+.frifag-tema-top-image {
+  min-width: 100%;
+  position: relative;
+}
+.frifag-tema-top-image img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.frifag-tema-top-caption {
+  position: absolute;
+  left: 30px;
+  bottom: 60px;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: white;
+  padding: 10px;
+}
+.frifag-tema-top-caption p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 617px) {
+  .frifag-tema-top-caption {
+    left: 10px;
+  }
+}
+
+.frifag-tema-head {
+  background: #FFF;
+  box-shadow: 2px -6px 9.6px 0px rgba(124, 124, 124, 0.15);
+  max-width: 825px;
+  width: 100%;
+  padding: 50px;
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -50px 10px;
+  z-index: 1;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 870px) {
+  .frifag-tema-head {
+    padding: 20px;
+    margin: -50px 10px 0 10px;
+  }
+}
+
+.frifag-tema-head-content {
+  max-width: 580px;
+}
+.frifag-tema-head-content h5 {
+  margin-bottom: 30px;
+  border-left: 9px solid #BB29BB;
+  padding-left: 10px;
+}
+.frifag-tema-head-content p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+.frifag-tema-head-content img {
+  margin-top: 20px;
+  max-width: 150px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.frifag-tema-byline-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 0.5px solid #dfdfdf;
+  border-bottom: 0.5px solid #dfdfdf;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.frifag-tema-byline-container p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+}
+.frifag-tema-byline-container b {
+  font-family: "Lato", sans-serif;
+}
+
+.frifag-tema-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.frifag-tema-content p {
+  max-width: 580px;
+}
+
+.frifag-tema-byline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 50px;
+}
+.frifag-tema-byline a {
+  text-decoration: none;
+}
+
+.frifag-tema-published {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 50px;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.frifag-tema-published p {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.frifag-tema-img-intext {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.frifag-tema-img-intext img {
+  width: 100%;
+  object-fit: cover;
+}
+.frifag-tema-img-intext p {
+  padding: 0 20px;
+  font-size: 16px;
+  color: #7c7c7c;
 }
 
 /*# sourceMappingURL=main.css.map */
