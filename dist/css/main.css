@@ -984,12 +984,12 @@ p {
   flex-wrap: wrap;
   gap: 10px;
 }
-.frifag-tema-byline-container p {
+.frifag-tema-byline-container a {
   font-size: 1rem;
   margin: 0;
-  font-weight: 500;
+  font-weight: 900;
 }
-.frifag-tema-byline-container b {
+.frifag-tema-byline-container small {
   font-family: "Lato", sans-serif;
 }
 
@@ -1019,6 +1019,7 @@ p {
   margin-right: 50px;
   gap: 5px;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 .frifag-tema-published p {
   font-size: 0.7rem;

@@ -115,13 +115,13 @@
     flex-wrap: wrap;
     gap: 10px;
 
-    p{
+    a{
         font-size: 1rem;
         margin: 0;
-        font-weight: 500;
+        font-weight: 900;
     }
 
-    b{
+    small{
         font-family: $font-family-sans-serif;
     }
 }
@@ -154,6 +154,7 @@
     margin-right: 50px;
     gap: 5px;
     flex-wrap: wrap;
+    margin-top: 10px;
     p{
         font-size: 0.7rem;
         margin: 0;
