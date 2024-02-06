@@ -177,7 +177,7 @@ footer {
   margin-bottom: 20px;
 }
 .frifag-article-head p {
-  font-weight: 800;
+  font-weight: 500;
   max-width: 580px;
   font-size: 1.5rem;
   line-height: 1.8rem;
@@ -794,6 +794,8 @@ p {
   border-top: 0.5px solid #dfdfdf;
   border-bottom: 0.5px solid #dfdfdf;
   padding: 10px 0;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .frifag-kronikk-byline-container p {
   font-size: 1rem;
