@@ -423,6 +423,7 @@ footer {
   width: 100%;
   gap: 20px;
   height: auto;
+  max-width: 580px;
 }
 .frifag-end-container p {
   font-family: "Merriweather", serif;
@@ -430,6 +431,7 @@ footer {
 }
 .frifag-end-container img {
   width: 200px;
+  margin-top: 10px;
 }
 .frifag-end-container .frifag-end-head {
   font-family: "Merriweather", serif;
@@ -895,6 +897,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 @media screen and (max-width: 768px) {
   .frifag-tema-article {
@@ -966,6 +969,9 @@ p {
 }
 .frifag-tema-head-content img {
   margin-top: 20px;
+  max-width: 150px;
+  height: 20px;
+  margin-bottom: 10px;
 }
 
 .frifag-tema-byline-container {
