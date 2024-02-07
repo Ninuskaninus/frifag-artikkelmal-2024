@@ -849,10 +849,14 @@ p {
 }
 
 .frifag-kronikk-information-old {
-  border: 1px solid #B9B9B9;
+  border: 1px solid #FE6E1E;
   padding: 0 10px;
   margin-bottom: 10px;
-  background-color: #B9B9B9;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 5px 5px;
 }
 .frifag-kronikk-information-old p {
   font-size: 1rem;
@@ -860,6 +864,12 @@ p {
   font-weight: 500;
   padding: 10px 0;
   color: #212121;
+  margin: 0;
+  padding: 0;
+}
+.frifag-kronikk-information-old img {
+  height: 30px;
+  width: 30px;
 }
 
 .frifag-kronikk-ingress {
@@ -1064,7 +1074,7 @@ p {
   flex-direction: row;
   align-items: flex-start;
   margin-right: 50px;
-  gap: 5px;
+  gap: 10px;
   flex-wrap: wrap;
   margin-top: 10px;
 }

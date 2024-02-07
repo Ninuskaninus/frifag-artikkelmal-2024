@@ -108,10 +108,14 @@
 }
 
 .frifag-kronikk-information-old{
-   border: 1px solid $light-gray;
+   border: 1px solid $orange;
     padding: 0 10px;
-    margin-bottom: 10px;   
-    background-color: $light-gray; 
+    margin-bottom: 10px;  
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 5px;
 
     p{
         font-size: 1rem;
@@ -119,6 +123,13 @@
         font-weight: 500;
         padding: 10px 0;
         color: $black;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        height: 30px;
+        width: 30px;
     }
 }
 
