@@ -281,7 +281,7 @@ footer {
 }
 @media screen and (max-width: 360px) {
   .frifag-article-content {
-    padding: 0;
+    padding: 0 10px;
   }
 }
 .frifag-article-content .frifag-ad-intext {
@@ -788,13 +788,33 @@ p {
   filter: grayscale(100%);
 }
 
-.frifag-kronikk-byline-container {
+.frifag-kronikk-byline {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 30px 0;
-  border-top: 0.5px solid #dfdfdf;
+  gap: 20px;
   border-bottom: 0.5px solid #dfdfdf;
+  border-top: 0.5px solid #dfdfdf;
+  padding: 10px 0;
+}
+
+.frifag-published-debatt-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-weight: 400;
+  color: #7c7c7c;
+  width: 100%;
+}
+.frifag-published-debatt-container p {
+  margin: 0;
+  font-size: 0.6rem;
+}
+
+.frifag-kronikk-byline-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
   padding: 10px 0;
   gap: 20px;
   flex-wrap: wrap;
@@ -826,6 +846,20 @@ p {
   font-weight: 500;
   padding: 10px 0;
   color: #7c7c7c;
+}
+
+.frifag-kronikk-information-old {
+  border: 1px solid #B9B9B9;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  background-color: #B9B9B9;
+}
+.frifag-kronikk-information-old p {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 500;
+  padding: 10px 0;
+  color: #212121;
 }
 
 .frifag-kronikk-ingress {
