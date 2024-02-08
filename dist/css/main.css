@@ -625,6 +625,30 @@ footer {
   z-index: 100;
 }
 
+.factbox h5 {
+  margin-bottom: 20px;
+  font-family: "Merriweather", serif;
+}
+.factbox h6 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+}
+.factbox li {
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+}
+.factbox p {
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+}
+.factbox small {
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+}
+
 h1 {
   font-family: "Merriweather", serif;
   font-weight: 900;
