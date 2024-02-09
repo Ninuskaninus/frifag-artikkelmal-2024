@@ -59,7 +59,6 @@ footer{
 }
 
 .frifag-article-head{
-    margin: 30px 0;
 
     h5{
         margin-bottom: 20px;
@@ -102,6 +101,7 @@ footer{
     align-items: center;
     max-width: 980px;
     width: 100%;
+    background-color: $white-gray;
 
     @media screen and (max-width: 768px) {
         display: none; 
@@ -110,7 +110,7 @@ footer{
 
 .frifag-ad-top-mobile{
         box-shadow: $box-shadow;
-            height: 400px;
+            height: auto;
             margin: 0 0 50px 0;
             display: flex;
             justify-content: center;
@@ -118,6 +118,14 @@ footer{
             max-width: 580px;
             width: 100%;
             display: none;
+            background-color: $white-gray;
+            flex-direction: column;
+
+            small{
+                font-size: 0.8rem;
+                font-family: $font-family-sans-serif;
+                padding: 5px 0;
+            }
 
             @media screen and (max-width: 768px) {
                 display: flex; 
@@ -144,7 +152,7 @@ footer{
 
     @media screen and (max-width: 768px) {
         img {
-            height: 300px;
+            height: 450px;
         }
 
         .frifag-article-top-image{
@@ -199,21 +207,30 @@ footer{
     aside{
         flex: 1;
         min-width: 250px;
-        justify-content: flex-end;
+        justify-content: flex-start;
         display: flex;
+        flex-direction: column;
 
         .frifag-advert-container{
             width: 100%;
         }
 
         .frifag-advert-aside{
-            box-shadow: $box-shadow;
-            height: 580px;
             margin: 20px 0;
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
+            background-color: $white-gray;
+
+            small{
+                font-size: 0.8rem;
+                font-family: $font-family-sans-serif;
+                padding: 5px 0;
+            }
         }
+
+        
 
         img {
             width: 100%;
@@ -225,10 +242,16 @@ footer{
     }
 
      @media screen and (max-width: 950px) {
-         .frifag-advert-container {
+         aside {
             display: none;
          }
-            
+      
+     }
+
+     @media screen and (min-width: 950px) {
+        .frifag-advert-carousel {
+            display: none;
+        }
      }
 
     .frifag-img-intext-content{
@@ -337,9 +360,13 @@ footer{
     }
 }
 
+.frifag-stillinger-carousel-desktop{
+    margin-bottom: 10px;
+}
+
 .frifag-end-container{
     background-color: $white-gray;
-    padding: 30px;
+    padding: 25px;
     box-shadow: $box-shadow;
     width: 100%;
     gap: 20px;
@@ -354,12 +381,11 @@ footer{
 
     img{
         width: 200px;
-        margin-top: 10px;
     }
 
     .frifag-end-head{
             font-family: $font-family-serif;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         p{
             font-weight: 900;
             margin-bottom: 5px;
@@ -503,7 +529,6 @@ footer{
 }
 
 .frifag-ad-intext-container{
-    padding: 10px 0;
     background-color: $white-gray;
     display: flex;
     justify-content: center;
@@ -522,7 +547,7 @@ footer{
     small{
         font-size: 0.8rem;
         font-family: $font-family-sans-serif;
-        margin-bottom: 10px;
+        padding: 5px 0;
     }
 
 }
@@ -563,6 +588,9 @@ footer{
     position: sticky;
     top: 0;
     z-index: 100;
+    height: 580px;
+    width: 100%;
+    box-shadow: $box-shadow;
 }
 
 .factbox{
@@ -595,5 +623,52 @@ footer{
     }
 }
 
+.frifag-advert-carousel{
+    margin-bottom: 20px;
+    background-color: #E6E3DD;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 250px;
+    }
+
+
+}
+
+.frifag-example-ad{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.frifag-ad-top-example{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+
+    small{
+        font-size: 0.8rem;
+        font-family: $font-family-sans-serif;
+        padding: 5px 0;
+    }
+
+}
+
+.frifag-ad-example{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
 
 

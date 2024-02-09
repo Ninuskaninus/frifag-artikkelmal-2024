@@ -165,9 +165,6 @@ footer {
   color: #FE6E1E;
 }
 
-.frifag-article-head {
-  margin: 30px 0;
-}
 .frifag-article-head h5 {
   margin-bottom: 20px;
   border-left: 9px solid #FE6E1E;
@@ -206,6 +203,7 @@ footer {
   align-items: center;
   max-width: 980px;
   width: 100%;
+  background-color: #F5F5F5;
 }
 @media screen and (max-width: 768px) {
   .frifag-ad-top {
@@ -215,7 +213,7 @@ footer {
 
 .frifag-ad-top-mobile {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 400px;
+  height: auto;
   margin: 0 0 50px 0;
   display: flex;
   justify-content: center;
@@ -223,6 +221,13 @@ footer {
   max-width: 580px;
   width: 100%;
   display: none;
+  background-color: #F5F5F5;
+  flex-direction: column;
+}
+.frifag-ad-top-mobile small {
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  padding: 5px 0;
 }
 @media screen and (max-width: 768px) {
   .frifag-ad-top-mobile {
@@ -249,7 +254,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .frifag-article-top-image img {
-    height: 300px;
+    height: 450px;
   }
   .frifag-article-top-image .frifag-article-top-image {
     padding: 0 0;
@@ -298,19 +303,25 @@ footer {
 .frifag-article-content aside {
   flex: 1;
   min-width: 250px;
-  justify-content: flex-end;
+  justify-content: flex-start;
   display: flex;
+  flex-direction: column;
 }
 .frifag-article-content aside .frifag-advert-container {
   width: 100%;
 }
 .frifag-article-content aside .frifag-advert-aside {
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  height: 580px;
   margin: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  background-color: #F5F5F5;
+}
+.frifag-article-content aside .frifag-advert-aside small {
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  padding: 5px 0;
 }
 .frifag-article-content aside img {
   width: 100%;
@@ -319,7 +330,12 @@ footer {
   object-position: center;
 }
 @media screen and (max-width: 950px) {
-  .frifag-article-content .frifag-advert-container {
+  .frifag-article-content aside {
+    display: none;
+  }
+}
+@media screen and (min-width: 950px) {
+  .frifag-article-content .frifag-advert-carousel {
     display: none;
   }
 }
@@ -418,9 +434,13 @@ footer {
   }
 }
 
+.frifag-stillinger-carousel-desktop {
+  margin-bottom: 10px;
+}
+
 .frifag-end-container {
   background-color: #F5F5F5;
-  padding: 30px;
+  padding: 25px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
   gap: 20px;
@@ -433,11 +453,10 @@ footer {
 }
 .frifag-end-container img {
   width: 200px;
-  margin-top: 10px;
 }
 .frifag-end-container .frifag-end-head {
   font-family: "Merriweather", serif;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .frifag-end-container .frifag-end-head p {
   font-weight: 900;
@@ -572,7 +591,6 @@ footer {
 }
 
 .frifag-ad-intext-container {
-  padding: 10px 0;
   background-color: #F5F5F5;
   display: flex;
   justify-content: center;
@@ -590,7 +608,7 @@ footer {
 .frifag-ad-intext-container small {
   font-size: 0.8rem;
   font-family: "Lato", sans-serif;
-  margin-bottom: 10px;
+  padding: 5px 0;
 }
 
 #ad320x320 {
@@ -623,6 +641,9 @@ footer {
   position: sticky;
   top: 0;
   z-index: 100;
+  height: 580px;
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .factbox h5 {
@@ -647,6 +668,49 @@ footer {
   font-size: 0.8rem;
   font-family: "Lato", sans-serif;
   font-style: italic;
+}
+
+.frifag-advert-carousel {
+  margin-bottom: 20px;
+  background-color: #E6E3DD;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+.frifag-advert-carousel img {
+  width: 250px;
+}
+
+.frifag-example-ad {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.frifag-ad-top-example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+.frifag-ad-top-example small {
+  font-size: 0.8rem;
+  font-family: "Lato", sans-serif;
+  padding: 5px 0;
+}
+
+.frifag-ad-example {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
 h1 {
@@ -787,7 +851,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 .frifag-kronikk-head h5 {
   margin-bottom: 20px;
@@ -876,7 +940,7 @@ p {
 .frifag-kronikk-information-old {
   border: 1px solid #FE6E1E;
   padding: 0 10px;
-  margin-bottom: 10px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   gap: 10px;
