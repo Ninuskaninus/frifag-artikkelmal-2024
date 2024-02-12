@@ -51,3 +51,33 @@
     position: relative;
     margin: 30px 0;
 }
+
+.factbox {
+    h5 {
+        margin-bottom: 20px;
+        font-family: $font-family-serif;
+    }
+
+    h6 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+        font-family: $font-family-sans-serif;
+    }
+
+    li {
+        font-size: 1.1rem;
+        font-family: $font-family-sans-serif;
+    }
+
+    p {
+        font-size: 1.1rem;
+        font-family: $font-family-sans-serif;
+    }
+
+    small {
+        font-size: 0.8rem;
+        font-family: $font-family-sans-serif;
+        font-style: italic;
+    }
+}
