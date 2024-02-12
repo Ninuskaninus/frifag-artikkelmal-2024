@@ -132,7 +132,6 @@ nav a {
 }
 
 main {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,8 +382,11 @@ footer {
   padding: 10px 0;
 }
 .frifag-article-byline img {
-  width: 150px;
+  width: auto;
+  max-height: 25px;
   margin-bottom: 10px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .frifag-article-byline-container {
@@ -452,7 +454,9 @@ footer {
   font-weight: 500;
 }
 .frifag-end-container img {
-  width: 200px;
+  width: auto;
+  max-height: 30px;
+  margin-bottom: 10px;
 }
 .frifag-end-container .frifag-end-head {
   font-family: "Merriweather", serif;
@@ -460,7 +464,7 @@ footer {
 }
 .frifag-end-container .frifag-end-head p {
   font-weight: 900;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .frifag-end-container .frifag-end-bottom {
   display: flex;
@@ -711,6 +715,39 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: white;
+}
+
+.frifag-undersak-container {
+  padding: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.frifag-undersak-container p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+.frifag-undersak-container h2 {
+  font-size: 2.1rem;
+  margin-bottom: 30px;
+}
+.frifag-undersak-container h4 {
+  font-size: 1.3rem;
+}
+
+.frifag-undersak-byline-container {
+  margin: 20px 0;
+}
+.frifag-undersak-byline-container p {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+.frifag-undersak-byline-container small {
+  font-family: "Lato", sans-serif;
+}
+
+.frifag-undersak-italic {
+  font-style: italic;
 }
 
 h1 {
