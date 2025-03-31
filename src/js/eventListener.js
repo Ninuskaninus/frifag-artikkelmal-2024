@@ -39,3 +39,6 @@ export function captionTrigger() {
         }
     }); */
 }
+
+const phBody = document.querySelector("body");
+phBody.classList.add("ph-body");

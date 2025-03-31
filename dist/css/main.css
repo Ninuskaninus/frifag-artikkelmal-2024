@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
 .merriweather-light {
   font-family: "Merriweather", serif;
   font-weight: 300;
@@ -115,7 +117,7 @@
 body {
   font-size: 18px;
   margin: 0;
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 nav {
@@ -158,7 +160,7 @@ footer {
   align-items: center;
   max-width: 980px;
   width: 100%;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 @media screen and (max-width: 768px) {
   .frifag-ad-top {
@@ -176,7 +178,7 @@ footer {
   max-width: 580px;
   width: 100%;
   display: none;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   flex-direction: column;
 }
 .frifag-ad-top-mobile small {
@@ -214,7 +216,7 @@ footer {
 }
 
 .frifag-end-container {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 25px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100%;
@@ -223,7 +225,7 @@ footer {
   max-width: 580px;
 }
 .frifag-end-container p {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 500;
 }
 .frifag-end-container img {
@@ -234,7 +236,7 @@ footer {
   object-position: center;
 }
 .frifag-end-container .frifag-end-head {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   margin-bottom: 20px;
 }
 .frifag-end-container .frifag-end-head p {
@@ -251,7 +253,7 @@ footer {
   border: #7c7c7c solid 1px;
   padding: 10px 20px;
   margin-top: 10px;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1rem;
   color: #212121;
   height: auto;
@@ -259,10 +261,10 @@ footer {
   text-decoration: none;
 }
 .frifag-end-container .frifag-end-bottom a:hover {
-  background-color: #FE6E1E;
-  color: #FFFFFF;
+  background-color: #fe6e1e;
+  color: #ffffff;
   text-decoration: none;
-  border: #FE6E1E solid 1px;
+  border: #fe6e1e solid 1px;
 }
 
 .frifag-social-container {
@@ -287,7 +289,7 @@ footer {
   margin: 50px 0;
 }
 .frifag-tags-container p {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 5px 10px;
   font-size: 1rem;
@@ -295,8 +297,8 @@ footer {
   cursor: pointer;
 }
 .frifag-tags-container p:hover {
-  background-color: #FE6E1E;
-  color: #FFFFFF;
+  background-color: #fe6e1e;
+  color: #ffffff;
 }
 
 .frifag-more-container {
@@ -370,7 +372,7 @@ footer {
 }
 
 .frifag-ad-intext-container {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -386,7 +388,7 @@ footer {
 }
 .frifag-ad-intext-container small {
   font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   padding: 5px 0;
 }
 
@@ -427,7 +429,7 @@ footer {
 
 .frifag-advert-carousel {
   margin-bottom: 20px;
-  background-color: #E6E3DD;
+  background-color: #e6e3dd;
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -455,7 +457,7 @@ footer {
 }
 .frifag-ad-top-example small {
   font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   padding: 5px 0;
 }
 
@@ -469,7 +471,7 @@ footer {
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 3rem;
@@ -484,7 +486,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 2.5rem;
@@ -493,7 +495,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 2rem;
@@ -502,7 +504,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
@@ -516,7 +518,7 @@ h4 + p {
 }
 
 h5 {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.25rem;
@@ -525,7 +527,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 1rem;
@@ -542,7 +544,7 @@ a:hover {
 }
 
 p {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.1rem;
@@ -552,7 +554,7 @@ p {
 .frifag-factbox-collapse {
   padding: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-top: 4px solid #FE6E1E;
+  border-top: 4px solid #fe6e1e;
   position: relative;
   margin: 50px 0;
 }
@@ -565,7 +567,12 @@ p {
   width: calc(100% - 2rem);
   height: 100px;
   bottom: 0px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 84%, #fff 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #fff 84%,
+    #fff 100%
+  );
 }
 .frifag-factbox-collapse .frifag-factbox-trigger {
   position: absolute;
@@ -574,7 +581,7 @@ p {
   transform: translateX(50%);
   width: 30px;
   height: 30px;
-  background-color: #FE6E1E;
+  background-color: #fe6e1e;
   color: #212121;
   font-weight: 700;
   font-size: 1rem;
@@ -594,32 +601,32 @@ p {
 .frifag-factbox-static {
   padding: 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-top: 4px solid #FE6E1E;
+  border-top: 4px solid #fe6e1e;
   position: relative;
   margin: 30px 0;
 }
 
 .factbox h5 {
   margin-bottom: 20px;
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 .factbox h6 {
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 .factbox li {
   font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 .factbox p {
   font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 .factbox small {
   font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-style: italic;
 }
 
@@ -632,18 +639,18 @@ p {
 .frifag-article-content a {
   color: #212121;
   text-decoration: underline;
-  text-decoration-color: #1767ce;
+  text-decoration-color: #fe6e1e;
   text-decoration-thickness: 2px;
   font-weight: 500;
 }
 .frifag-article-head a:hover,
 .frifag-article-content a:hover {
-  color: #FE6E1E;
+  color: #fe6e1e;
 }
 
 .frifag-article-head h5 {
   margin-bottom: 20px;
-  border-left: 9px solid #FE6E1E;
+  border-left: 9px solid #fe6e1e;
   padding-left: 10px;
 }
 .frifag-article-head h1 {
@@ -663,7 +670,7 @@ p {
 
 .frifag-article-quote {
   font-weight: 700;
-  border-left: 5px solid #FE6E1E;
+  border-left: 5px solid #fe6e1e;
   padding-left: 10px;
   margin: 30px 0;
   font-size: 1.3rem;
@@ -732,11 +739,11 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 .frifag-article-content aside .frifag-advert-aside small {
   font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   padding: 5px 0;
 }
 .frifag-article-content aside img {
@@ -819,14 +826,14 @@ p {
 .frifag-article-byline-container p {
   margin-bottom: 0;
   font-size: 1rem;
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   color: #212121;
   font-weight: 600;
   margin-top: 0;
 }
 .frifag-article-byline-container small {
   font-size: 0.7rem;
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   color: #7c7c7c;
   font-weight: 500;
 }
@@ -841,7 +848,7 @@ p {
 .frifag-published-container p {
   margin: 0;
   font-size: 0.8rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   color: #7c7c7c;
   font-weight: 500;
   width: auto;
@@ -926,7 +933,7 @@ p {
   font-weight: 500;
 }
 .frifag-kronikk-byline-container b {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 @media screen and (max-width: 375px) {
   .frifag-kronikk-byline-container img {
@@ -935,8 +942,8 @@ p {
 }
 
 .frifag-kronikk-information {
-  border-top: 1px solid #B9B9B9;
-  border-bottom: 1px solid #B9B9B9;
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
 }
 .frifag-kronikk-information p {
   font-size: 1rem;
@@ -947,7 +954,7 @@ p {
 }
 
 .frifag-kronikk-information-old {
-  border: 1px solid #FE6E1E;
+  border: 1px solid #fe6e1e;
   padding: 0 10px;
   margin-top: 10px;
   display: flex;
@@ -977,7 +984,7 @@ p {
 }
 
 .frifag-kronikk-quote {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   border-left: 3px solid #1767ce;
   padding-left: 10px;
   height: 100%;
@@ -996,7 +1003,7 @@ p {
 }
 .frifag-debatt-head h5 {
   margin-bottom: 20px;
-  border-left: 9px solid #30B700;
+  border-left: 9px solid #30b700;
   padding-left: 10px;
 }
 .frifag-debatt-head h1 {
@@ -1017,8 +1024,8 @@ p {
 }
 
 .frifag-debatt-quote {
-  font-family: "Lato", sans-serif;
-  border-left: 3px solid #30B700;
+  font-family: "Source Sans 3", sans-serif;
+  border-left: 3px solid #30b700;
   padding-left: 10px;
   height: 100%;
   font-weight: 900;
@@ -1088,7 +1095,7 @@ p {
 }
 
 .frifag-tema-head {
-  background: #FFF;
+  background: #fff;
   box-shadow: 2px -6px 9.6px 0px rgba(124, 124, 124, 0.15);
   max-width: 825px;
   width: 100%;
@@ -1114,7 +1121,7 @@ p {
 }
 .frifag-tema-head-content h5 {
   margin-bottom: 30px;
-  border-left: 9px solid #BB29BB;
+  border-left: 9px solid #bb29bb;
   padding-left: 10px;
 }
 .frifag-tema-head-content p {
@@ -1145,7 +1152,7 @@ p {
   font-weight: 900;
 }
 .frifag-tema-byline-container small {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 .frifag-tema-content {
@@ -1221,13 +1228,13 @@ p {
   padding-bottom: 10px;
 }
 .frifag-undersak-byline-container p {
-  font-family: "Merriweather", serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   margin: 0;
 }
 .frifag-undersak-byline-container small {
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.8rem;
 }
 
